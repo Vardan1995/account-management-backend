@@ -1,0 +1,20 @@
+{
+  "name": "account-management-backend-level-3",
+  "version": "0.0.1",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "echo build your app here",
+    "start": "node ./src/index.js",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  }
+}
